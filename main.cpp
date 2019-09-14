@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     nodo *raiz = 0;
-    char *nombre = (char *)" ";
+    char *nombre ;
     int opciones{0};
     do
     {
@@ -42,7 +42,7 @@ int main()
         case 5:
             cout << "Ponga el Nombre Del Archivo: " << endl;
             cin >> nombre;
-            guardarArchivo(&raiz, nombre);
+            guardarenArchivo(&raiz, nombre);
             break;
         case 6:
             cout << "Ponga el Nombre Del Archivo: " << endl;
