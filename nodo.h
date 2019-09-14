@@ -19,7 +19,7 @@ void imprimir(nodo **);
 void insertarAlInicio(nodo **, char *);
 void insertarAlFinal(nodo **, char *);
 void Ordenar(nodo **);
-void guardarArchivo(nodo **, char *);
+void guardarenArchivo(nodo **, char *);
 void cargarDesdeArchivo(char *);
 bool BuscarElemento(nodo **, char *);
 #endif
